@@ -12,12 +12,23 @@
 }
 
 body {
-  background-color: #121212;
+  
+   
+  background: radial-gradient(
+    circle at top,
+    rgba(80, 90, 110, 0.01),
+    #0a0a0c 70%
+  );
+
+  background-attachment: fixed;
+
 }
 
 section {
   padding: 28px 8%;
 }
+
+
 
 
 
@@ -60,9 +71,10 @@ section {
   transition: background-color.3s ease;
   color: #FFFFFF;
   font-weight: 600;
-  width: 175px;
-  height: 55px;
-  font-size: 18px;
+  width: 155px;
+  height: 35px;
+  font-size: 15px;
+  
 
 }
 

@@ -1,7 +1,24 @@
 #home {
   display: flex;
-  min-height: calc(100vh - 91px);
+ 
+   min-height: 80vh;
+
   position: relative;
+
+  
+  
+}
+
+.quadrado {
+    width: 396px;
+    height: 418.27px;
+    background-color: rgb(160, 159, 159);
+     border-radius: 10%;
+    
+    position: absolute;
+    right: 100px;
+    box-shadow: 0 0 120px #2563eb;
+    
 }
 
 #navbar .fa-solid {
