@@ -13,7 +13,7 @@
 .produtos1 {
    font-size: 60px;
 
-   color: #3B82F6;
+   color: #afafaf;
 
    text-align: center;
 
@@ -45,7 +45,7 @@
 }
 
 .card{
-   background: #111;
+   background: #121826;
 
    padding: 20px;
 
@@ -65,9 +65,9 @@ color: azure;
 .card:hover{
    transform: translateY(-10px);
 
-   box-shadow: 0 0 30px #3B82F6;
+   box-shadow: 0 0 30px #6366f1;
 
-   border: 1px solid #3B82F6;
+   border: 1px solid #8b5cf6;
 }
 
 .card img{
@@ -77,7 +77,7 @@ color: azure;
 }
 
 .card button{
-   background: #3B82F6;
+   background: #8b5cf6;
 
    color: white;
 
