@@ -36,14 +36,14 @@ header {
 /* banana */
 .nav-item a {
   text-decoration: none;
-  color: #A0A0A0;
+  color: #ffffff;
   font-weight: 600;
   font-size: 18px;
 }
 
 .nav-item.active a {
-  color: #A0A0A0;
-  border-bottom: 3px solid #6366f1;
+  color: #ffffff;
+  border-bottom: 3px solid #3b82f6;
 }
 
 #mobile_btn {
@@ -88,7 +88,7 @@ header {
 }
 
 .brand-title {
-  color: #cfcfcf;
+  color: #ffffff;
   display: flex;
     flex-direction: column; /* Faz o "Tech" ficar em cima e o "Axiom" embaixo */
     justify-content: center;
@@ -97,7 +97,7 @@ header {
 }
 
 .brand-sub {
-  color: #6366f1;
+  color: #3b82f6;
   display: flex;
     flex-direction: column; /* Faz o "Tech" ficar em cima e o "Axiom" embaixo */
     justify-content: center;
