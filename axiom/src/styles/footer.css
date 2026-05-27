@@ -1,0 +1,153 @@
+#footer {
+ position: relative;
+
+  padding: 100px 40px 30px;
+
+  background: #101826;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+  overflow: hidden;
+
+
+}
+
+.footer-gradient {
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+
+  background: radial-gradient(
+    circle,
+    rgba(140, 82, 255, 0.18) 0%,
+    rgba(0, 0, 0, 0) 70%
+  );
+
+  top: -200px;
+  right: -100px;
+
+  pointer-events: none;
+}
+.footer-container {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: 50px;
+}
+.footer-brand h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.footer-brand p {
+  color: #a0a0b0;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+.footer h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  display: block;
+
+  margin-bottom: 12px;
+
+  color: #9f9fad;
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+.footer a:hover {
+  color: #a970ff;
+  transform: translateX(5px);
+}
+.footer-socials {
+  display: flex;
+  gap: 15px;
+}
+.footer-socials a {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  color: white;
+  font-size: 1rem;
+
+  transition: 0.3s ease;
+}
+.footer-socials a:hover {
+  background: #a970ff;
+
+  transform: translateY(-5px);
+
+  box-shadow: 0 10px 25px rgba(169, 112, 255, 0.35);
+}
+.footer-button {
+  margin-top: 20px;
+
+  padding: 12px 22px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: linear-gradient(
+    135deg,
+    #8c52ff,
+    #5b9dff
+  );
+
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+.footer-button:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 10px 25px rgba(91, 157, 255, 0.3);
+}
+.footer-bottom {
+  position: relative;
+  z-index: 2;
+
+  margin-top: 70px;
+  padding-top: 25px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 20px;
+
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-contact{
+    color: #ffffff;
+}
+
